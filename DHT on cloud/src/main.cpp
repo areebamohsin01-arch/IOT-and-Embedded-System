@@ -24,9 +24,10 @@
 #include "DHT.h"
 
 // ------------ WiFi credentials (for wokwi) ------------
-char ssid[] = "NTU FSD";
+char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
 
+// ------------ Pins (match your Wokwi diagram) ------------
 // ------------ Pins (match your Wokwi diagram) ------------
 #define DHTPIN   23
 #define DHTTYPE  DHT22
