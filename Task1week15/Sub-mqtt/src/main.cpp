@@ -16,7 +16,7 @@ char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
 
 // ---------- MQTT ----------
-const char* mqtt_server = "10.13.28.246"; // Change to your MQTT broker IP
+const char* mqtt_server = "192.168.1.11"; // Change to your MQTT broker IP
 const int mqtt_port = 1883;
 
 const char* TOPIC_TEMP = "home/lab1/temp"; // Topic for temperature
